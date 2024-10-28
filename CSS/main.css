@@ -1,0 +1,319 @@
+/* Mobile */
+@media only screen and (max-width:480px){
+    .meetTeam h1::after {
+        width: 349px !important;
+        margin: 14px -281px 4px !important;
+        
+    }
+    .ForVendor-Image {
+        width: 262px !important;
+        height: 243px !important;
+        margin: 28px auto !important;
+    }
+    .ForVendor .card-header::before {
+        margin: -47px -82px !important;
+        width: 384px !important;
+
+    }
+    .image-wrapper img {
+        width: 88% !important;
+        height: 145px !important;
+    }
+
+    .caption h3 {
+        font-size: 18px !important;
+    }
+}
+@media only screen and (max-width:768px) {
+    .image-wrapper img {
+        width: 88% !important;
+        height: 145px !important;
+    }
+}
+/* Extra Small devices  */
+@media only screen and (min-width :481px) and (max-width :992px){
+    .valueBody {
+        margin: auto;
+    }
+    .ForVendor-Image {
+        width: 262px !important;
+        height: 243px !important;
+        margin: 28px auto !important;
+    }
+}
+
+
+ul.navbar-nav.align-items-center.ms-auto.mb-2.mb-lg-0 li:first-child {
+    display: none;
+}
+:root {
+    --base-1: #ff3131;
+    --base-rgb: 255, 49, 49;
+    --base-2: #000000;
+    --base-rgb-2: 0, 0, 0;
+}
+
+body{
+    padding: 0;
+    margin:0 ;
+    outline: 0;
+}
+.pageTitle {
+    text-align: center;
+    margin-bottom: 31px;
+}
+.pageTitle p.text {
+    color: #717c77;
+    margin-bottom: 3px;
+}
+.AboutUs-section {
+    padding: 80px 0px;
+}
+.aboutUs-image {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.aboutUs-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.aboutUs-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(270deg, rgba(var(--base-rgb), 0.64) 13.66%, rgba(var(--base-rgb), 0.1) 89.75%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/*   -----------------------------------------------  Section Vision -------------------------------------------------  */
+section.card-vision {
+    padding: 80px 0px;
+}
+p.card-text {
+    color: #7a7a7a;
+}
+
+.cardImage {
+    width: 80%;
+    margin: auto;    
+    box-shadow: rgb(246 107 93) -4px 6px 0px 4px;
+    border-radius: 80% / 100% 135% 7% 63%;
+    overflow: hidden;
+}
+.cardImage img {
+    width: 100%;
+}
+.card-header h2 {
+    text-transform: capitalize;
+}
+.card-Body {
+    padding: 30px 0px;
+    line-height: 1.6;
+    text-align: justify;
+    
+}
+ .card-vision h2::after {
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 108px;
+    height: 4px;
+    margin: 41px -96px 4px;
+    background: #f66b5d;
+}
+
+/*---------------------------------------------------------- End Of Section Vision ---------------------------------------------------*/
+/*---------------------------------------------------------  Section Mission -------------------------------------------------------- */
+section.card-mission .card-Body {
+    width: 72%;
+}
+.card-text p {
+    color: #7a7a7a;
+}
+p.title {
+    font-size: 21px;
+    color: black !important;
+    font-weight: bold;
+}
+.card-mission h2::after {
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 108px;
+    height: 4px;
+    margin: 41px -113px 4px;
+    background: #f66b5d;
+}
+/*---------------------------------------------------------  Section Value --------------------------------------------------------- */
+section.value {
+    margin: 68px 0px;
+    padding: 32px 0px;
+    background: linear-gradient(176deg, #ffffff 0%, rgba(var(--base-rgb), 0.034) 15.13%, rgba(255, 255, 255, 0.15) 79.34%, #ffffff 99.56%);
+}
+.valuDescription {
+    margin-top: 9px;
+    text-align: center;
+}
+.valuDescription h4 {
+    color: #7e8783b5;
+    font-size: 18px;
+}
+.valueHeader {
+    position: relative;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.valueHeader h1::after {
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 108px;
+    height: 4px;
+    margin: 21px -103px 4px;
+    background: #f66b5d;
+    top: 35px;
+}
+.valueBody {
+    text-align: center;
+    padding: 20px;
+    min-height: 292px;
+}
+.valueBody .icon i {
+    line-height: 2.5;
+}
+.valueBody .icon {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+    overflow: hidden;
+    border: 1px solid;
+    margin: 20px auto;
+    background: linear-gradient(90deg, rgba(255, 49, 49, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+}
+.valueBody .text h5 {
+    font-size: 17px;
+}
+.valueBody .text p {
+    font-size: 15px;
+    color: #d6d6d6;
+    font-weight: 500;
+}
+/*-----------------------------------------------------  End Of Section Value --------------------------------------------------------- */
+/*---------------------------------------------------------  Section Partners --------------------------------------------------------- */
+.partnersImage {
+    box-shadow: rgb(246 107 93) -12px 16px 0px -4px;
+    border-radius: 138% / 159% 228% 1% 146%;
+}
+.partners h2::after {
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 235px;
+    height: 4px;
+    margin: 41px -237px;
+    background: #f66b5d;
+}
+/*--------------------------------------------------------- End Of Section Partners --------------------------------------------------------- */
+/*---------------------------------------------------------  Section Vendor --------------------------------------------------------- */
+section.ForVendor {
+    padding: 80px 0px;
+    background: linear-gradient(176deg, #ffffff 0%, rgba(var(--base-rgb), 0.034) 15.13%, rgba(255, 255, 255, 0.15) 79.34%, #ffffff 99.56%);
+    margin-top:80px;
+}
+.ForVendor-Image {
+    width: 380px;
+    margin: auto;
+    box-shadow: rgb(246 107 93) -12px 16px 0px -15px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 380px;
+}
+.ForVendor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ForVendor .card-header::before {
+    margin: -36px -106px;
+    content: "";
+    position: absolute;
+    width: 451px;
+    box-shadow: rgb(246 107 93) -62px -137px 0px -132px;
+    border-radius: 50%;
+    height: 390px;
+}
+.ForVendor.card-text{
+    position: relative;
+}
+section.ForVendor .card-text p::before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background: #f66b5d;
+    border-radius: 50%;
+    margin: 10px -17px;
+}
+/*--------------------------------------------------------- End Of Section Vendor --------------------------------------------------------- */
+/*---------------------------------------------------------  Section Delivery --------------------------------------------------------- */
+
+.forDelivery {
+    margin-top: 104px;
+}
+/*--------------------------------------------------------- End Of Section Delivery --------------------------------------------------------- */
+/*---------------------------------------------------------  Section Meet Team --------------------------------------------------------- */
+
+.meetTeamHeader {
+    position: relative;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.meetTeam h1::after {
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    width: 289px;
+    height: 4px;
+    margin: 21px -283px 4px;
+    background: #f66b5d;
+    top: 35px;
+}
+.meetTeamDescription {
+    margin-top: 9px;
+    text-align: center;
+}
+.meetTeamDescription h4{
+    color: #7e8783b5;
+    font-size: 18px;
+}
+
+.caption img {
+    object-fit: cover;
+    width: 77%;
+    height: 268px;
+    margin: 20px auto;
+    box-shadow: rgb(246 107 93) -4px 6px 0px 4px;
+    border-radius: 80% 72%;
+    overflow: hidden;
+}
+
+.caption {
+    text-align: center;
+}
+.caption h3{
+    font-size: 23px;
+}
+.caption p{
+    color: #2d493db5;
+}
+.caption a{
+    text-decoration:none;
+    color: gray;
+}
+
+/*--------------------------------------------------------- End Of Section Meet Team --------------------------------------------------------- */
